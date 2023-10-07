@@ -20,6 +20,7 @@ class MovieBookingSystem(ABC):
     def cancel_booking(self, movie):
         pass
 
+
 class OnlineBookingSystem(MovieBookingSystem):
     def make_booking(self, movie, number_of_tickets):
         print(f"Online booking for {number_of_tickets} tickets for {movie}")
