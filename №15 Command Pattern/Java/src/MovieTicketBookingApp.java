@@ -51,7 +51,7 @@ public class MovieTicketBookingApp {
 
         bookingSystem.addCommand(bookTicket1);
         bookingSystem.addCommand(bookTicket2);
-        
+
         bookingSystem.executeCommands();
     }
 }
